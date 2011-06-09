@@ -11,7 +11,7 @@ USE_SIMPLE_CONTACT = getattr(settings, 'USE_SIMPLE_CONTACT', True)
 class ContactAdmin(admin.ModelAdmin):
     pass
 
-class SimpleContactAdmin(adminModelAdmin):
+class SimpleContactAdmin(admin.ModelAdmin):
     pass
 
 if USE_SIMPLE_CONTACT:
