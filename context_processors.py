@@ -2,16 +2,14 @@
 
 from django.conf import settings
 
-from contaku.forms import ContactForm, SimpleContactForm
+from django.forms import ModelForm
+#from django.utils.translation import ugettext_lazy as _
 
-USE_SIMPLE_CONTACT = getattr(settings, 'USE_SIMPLE_CONTACT', True)
+
+from contaku.forms import ContactForm
 
 def contact(request):
     data = {}
-    if USE_SIMPLE_CONTACT:
-        contact_form = SimpleContactForm()
-    else:
-        contact_form = ContactForm()
-    data['contact_form'] = contact_form
+    data['contact_form'] = ContactForm()
     data['contact_action'] = 'contact-action'
     return data

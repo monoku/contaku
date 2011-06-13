@@ -1,14 +1,12 @@
 # -*- coding: utf-8 -*-
-
 from django.conf import settings
 from django.http import HttpResponseRedirect
 
-USE_SIMPLE_CONTACT = getattr(settings, 'USE_SIMPLE_CONTACT', True)
+from django.forms import ModelForm
+#from django.utils.translation import ugettext_lazy as _
 
-if USE_SIMPLE_CONTACT:
-    from contaku.forms import SimpleContactForm as ContactForm
-else:
-    from contaku.forms import ContactForm
+
+from contaku.forms import ContactForm
 
 def contact(request):
     if request.method == 'POST':
