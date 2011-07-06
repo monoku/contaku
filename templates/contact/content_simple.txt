@@ -1,0 +1,15 @@
+{% load i18n %}
+{% include 'contact/email_header.txt' %}
+
+----------------------------------------------------------------------------
+{% trans "Name" %}: {{ message.name }}
+{% trans "Email" %}: {{ message.email }}
+{% trans "Date & Time" %}: {{ message.date|date:"F n Y" }}
+{% trans "Message" %}: {{ message.comment }}
+
+{% trans "You can view this message in the administrative interface in this url" %}:
+{{ site.domain }}{{ message.get_absolute_url }}
+
+-----------------------------------------------------------------------------
+{% include 'contact/email_footer.txt' %}
+{{ site.domain }}

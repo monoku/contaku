@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-09 15:49-0500\n"
+"POT-Creation-Date: 2011-07-06 14:20-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,42 +18,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
-#: models.py:8
+#: models.py:25 templates/contact/content_simple.html:11
 msgid "Date & Time"
 msgstr ""
 
-#: models.py:9
+#: models.py:26 templates/contact/content_simple.html:9
 msgid "Name"
 msgstr ""
 
-#: models.py:10
+#: models.py:27 templates/contact/content_simple.html:10
 msgid "Email"
 msgstr ""
 
-#: models.py:11
+#: models.py:28
 msgid "Phone"
 msgstr ""
 
-#: models.py:12
+#: models.py:29
 msgid "Organization/Company"
 msgstr ""
 
-#: models.py:13
+#: models.py:30
 msgid "Subject"
 msgstr ""
 
-#: models.py:14
+#: models.py:31 templates/contact/content_simple.html:12
 msgid "Message"
 msgstr ""
 
-#: models.py:15
+#: models.py:32
 msgid "Readed?"
 msgstr ""
 
-#: models.py:21
+#: models.py:38
 msgid "Contact Message"
 msgstr ""
 
-#: models.py:22
+#: models.py:39
 msgid "Contact Messages"
+msgstr ""
+
+#: templates/contact/content_simple.html:13
+msgid "You can"
+msgstr ""
+
+#: templates/contact/content_simple.html:13
+msgid "view this message in the admin interface by clicking here"
 msgstr ""

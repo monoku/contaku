@@ -1,59 +1,71 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# , 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-06-09 15:49-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2011-07-06 15:45-0500\n"
+"PO-Revision-Date: 2011-07-06 15:45-0500\n"
+"Last-Translator: \n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Lokalize 1.2\n"
 
-#: models.py:8
+#: models.py:28 templates/contact/content_simple.html:11
 msgid "Date & Time"
-msgstr ""
+msgstr "Fecha & Hora"
 
-#: models.py:9
+#: models.py:29 templates/contact/content_simple.html:9
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
-#: models.py:10
+#: models.py:30 templates/contact/content_simple.html:10
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
-#: models.py:11
+#: models.py:31
 msgid "Phone"
-msgstr ""
+msgstr "Teléfono"
 
-#: models.py:12
+#: models.py:32
 msgid "Organization/Company"
-msgstr ""
+msgstr "Organización/Compañía"
 
-#: models.py:13
+#: models.py:33
 msgid "Subject"
-msgstr ""
+msgstr "Asunto"
 
-#: models.py:14
+#: models.py:34 templates/contact/content_simple.html:12
 msgid "Message"
-msgstr ""
+msgstr "Mensaje"
 
-#: models.py:15
+#: models.py:35
 msgid "Readed?"
-msgstr ""
+msgstr "Ha sido leido?"
 
-#: models.py:21
+#: models.py:41 templates/contact/content_simple.html:7
 msgid "Contact Message"
-msgstr ""
+msgstr "Mensaje de Contacto"
 
-#: models.py:22
+#: models.py:42
 msgid "Contact Messages"
-msgstr ""
+msgstr "Mensajes de contacto"
+
+#: templates/contact/content_simple.html:13
+msgid "You can"
+msgstr "Usted puede"
+
+#: templates/contact/content_simple.html:13
+msgid "view this message in the admin interface by clicking here"
+msgstr "ver este mensaje en la interfaz administrativa haciendo clic aquí"
+
+#: templates/contact/content_simple.html:15
+msgid "All rights reserved"
+msgstr "Todos los derechos reservados"
+

@@ -1,0 +1,20 @@
+{% load i18n %}
+{% include 'contact/email_header.html' %}
+<div class="continer" style="text-align:center;">
+        <div class="wrapper" style="text-align: left; width: 700px; font-family: Tahoma, sans-serif; color: {{ color_one }}; font-size: 13px;">
+                <img src="{{ site.domain }}{{ STATIC_URL }}img/horacio-logo.png" style="float: left" />
+                <div class="info" style="float: right; width: 550px">
+                        <h1 style="font-size: 18px; font-weight: bold; padding: 10px 0 25px 0; border-bottom: 1px dashed #ddd; color: {{ color_one }}">{% trans 'Contact Message' %} <span style="color: {{ color_two }}">{{ site.name }}</span></h1>
+                        <div style="padding: 15px 0 35px;  border-bottom: 1px dashed #ddd">
+                                <p>{% trans "Name" %}: <b>{{ message.name }}</b> <br>
+                                <p>{% trans "Email" %}: <a style="color: {{ color_two }}; text-decoration: none; font-weight: bold" href="mailto:{{ message.email }}">{{ message.email }}</a> <br>
+                                <p>{% trans "Date & Time" %}: <b>{{ message.date|date:"F n Y" }}</b> <br>
+                                <p>{% trans "Message" %}: <b>{{ message.comment }}</b></p>
+                                <p>{% trans "You can" %} <a style="color: {{ color_two }}; text-decoration: none; font-weight: bold" href="{{ site.domain }}{{ message.get_absolute_url }}">{% trans "view this message in the admin interface by clicking here" %}</a>.</p>
+                        </div>
+                        <p style="display: block; padding-top: 5px;">{{ site.name }}, {% trans "All rights reserved" %}. <a href="{{ site.domain }}" style="color: {{ color_two }}; text-decoration: none; font-weight: bold">Mila / {{root_url}}</a></p>
+                </div>
+                <div style="clear:both"></div>
+        </div>
+</div>
+{% include 'contact/email_footer.html' %}
