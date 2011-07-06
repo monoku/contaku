@@ -37,6 +37,9 @@ class Contact(models.Model):
     def get_absolute_url(self):
         return reverse('admin:contaku_contact_change', args=[self.id])
 
+    def __unicode__(self):
+        return u'%s at %s' % (self.name, self.date)
+
     class Meta:
         verbose_name = _('Contact Message')
         verbose_name_plural = _('Contact Messages')

@@ -12,7 +12,10 @@ class ContactAdmin(admin.ModelAdmin):
     pass
 
 class SimpleContactAdmin(admin.ModelAdmin):
-    pass
+    list_display = ['date', 'name', 'phone', 'email', 'readed']
+    fields = ['date', 'name', 'phone', 'email', 'comment', 'readed']
+    readonly_fields = ['date', 'name', 'phone', 'email', 'comment']
+    list_filter = ['date', 'readed']
 
 if USE_SIMPLE_CONTACT:
     admin.site.register(Contact, SimpleContactAdmin)
