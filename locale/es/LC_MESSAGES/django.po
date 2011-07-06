@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-06 15:45-0500\n"
-"PO-Revision-Date: 2011-07-06 15:45-0500\n"
+"POT-Creation-Date: 2011-07-06 16:04-0500\n"
+"PO-Revision-Date: 2011-07-06 16:06-0500\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: \n"
@@ -27,7 +27,7 @@ msgstr "Nombre"
 
 #: models.py:30 templates/contact/content_simple.html:10
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: models.py:31
 msgid "Phone"
@@ -47,15 +47,19 @@ msgstr "Mensaje"
 
 #: models.py:35
 msgid "Readed?"
-msgstr "Ha sido leido?"
+msgstr "Ha sido leído?"
 
-#: models.py:41 templates/contact/content_simple.html:7
+#: models.py:44 templates/contact/content_simple.html:7
 msgid "Contact Message"
 msgstr "Mensaje de Contacto"
 
-#: models.py:42
+#: models.py:45
 msgid "Contact Messages"
-msgstr "Mensajes de contacto"
+msgstr "Mensajes de Contacto"
+
+#: views.py:20
+msgid "The message of contact was send succesfull"
+msgstr "El mensaje de contacto fue enviado exitosamente"
 
 #: templates/contact/content_simple.html:13
 msgid "You can"
