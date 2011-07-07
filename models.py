@@ -22,6 +22,7 @@ REPLY_TO_SENDER = getattr(settings, 'REPLY_TO_SENDER', True)
 USE_SIMPLE_CONTACT = getattr(settings, 'USE_SIMPLE_CONTACT', True)
 CONTACT_COLOR_ONE = getattr(settings, 'CONTACT_COLOR_ONE', '#000000')
 CONTACT_COLOR_TWO = getattr(settings, 'CONTACT_COLOR_TWO', '#777777')
+CONTACT_LOGO = getattr(settings, 'CONTACT_LOGO', '')
 STATIC_URL = getattr(settings, 'STATIC_URL', '')
 
 class Contact(models.Model):
@@ -61,6 +62,7 @@ def send_contact_email(sender, instance, created, **kwargs):
     context['site'] = Site.objects.get_current()
     context['color_one'] = CONTACT_COLOR_ONE
     context['color_two'] = CONTACT_COLOR_TWO
+    context['contact_logo'] = CONTACT_LOGO
     context['STATIC_URL'] = STATIC_URL
     
     if USE_SIMPLE_CONTACT:
