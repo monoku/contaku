@@ -3,6 +3,7 @@
 from django.conf import settings
 from django.contrib import messages
 from django.http import HttpResponseRedirect
+from django.utils.translation import ugettext as _
 
 USE_SIMPLE_CONTACT = getattr(settings, 'USE_SIMPLE_CONTACT', True)
 
