@@ -1,9 +1,9 @@
 {% load i18n %}
 {% include 'contact/email_header.html' %}
 <div class="continer" style="text-align:center;">
-        <div class="wrapper" style="text-align: left; width: 700px; font-family: Tahoma, sans-serif; color: {{ color_one }}; font-size: 13px;">
-                <img src="{{ site.domain }}{{ STATIC_URL }}{{ contact_logo }}" style="float: left" />
-                <div class="info" style="float: right; width: 550px">
+        <div class="wrapper" style="text-align: left; width: 600px; font-family: Tahoma, sans-serif; color: {{ color_one }}; font-size: 13px;">
+                <img src="{{ site.domain }}{{ STATIC_URL }}{{ contact_logo }}" />
+                <div class="info" style="float: right; width: 600px">
                         <h1 style="font-size: 18px; font-weight: bold; padding: 10px 0 25px 0; border-bottom: 1px dashed #ddd; color: {{ color_one }}">{% trans 'Contact Message' %} <span style="color: {{ color_two }}">{{ site.name }}</span></h1>
                         <div style="padding: 15px 0 35px;  border-bottom: 1px dashed #ddd">
                                 <p>{% trans "Name" %}: <b>{{ message.name }}</b> <br>
