@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-07-06 16:04-0500\n"
+"POT-Creation-Date: 2011-07-19 17:25-0500\n"
 "PO-Revision-Date: 2011-07-06 16:06-0500\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -17,47 +17,47 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "X-Generator: Lokalize 1.2\n"
 
-#: models.py:28 templates/contact/content_simple.html:11
+#: models.py:29 templates/contact/content_simple.html:11
 msgid "Date & Time"
 msgstr "Fecha & Hora"
 
-#: models.py:29 templates/contact/content_simple.html:9
+#: models.py:30 templates/contact/content_simple.html:9
 msgid "Name"
 msgstr "Nombre"
 
-#: models.py:30 templates/contact/content_simple.html:10
+#: models.py:31 templates/contact/content_simple.html:10
 msgid "Email"
 msgstr "Correo electrónico"
 
-#: models.py:31
+#: models.py:32
 msgid "Phone"
 msgstr "Teléfono"
 
-#: models.py:32
+#: models.py:33
 msgid "Organization/Company"
 msgstr "Organización/Compañía"
 
-#: models.py:33
+#: models.py:34
 msgid "Subject"
 msgstr "Asunto"
 
-#: models.py:34 templates/contact/content_simple.html:12
+#: models.py:35 templates/contact/content_simple.html:12
 msgid "Message"
 msgstr "Mensaje"
 
-#: models.py:35
+#: models.py:36
 msgid "Readed?"
 msgstr "Ha sido leído?"
 
-#: models.py:44 templates/contact/content_simple.html:7
+#: models.py:45 templates/contact/content_simple.html:7
 msgid "Contact Message"
 msgstr "Mensaje de Contacto"
 
-#: models.py:45
+#: models.py:46
 msgid "Contact Messages"
 msgstr "Mensajes de Contacto"
 
-#: views.py:20
+#: views.py:21
 msgid "The message of contact was send succesfull"
 msgstr "El mensaje de contacto fue enviado exitosamente"
 
@@ -72,4 +72,3 @@ msgstr "ver este mensaje en la interfaz administrativa haciendo clic aquí"
 #: templates/contact/content_simple.html:15
 msgid "All rights reserved"
 msgstr "Todos los derechos reservados"
-
