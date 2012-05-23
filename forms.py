@@ -13,4 +13,4 @@ class ContactForm(ModelForm):
 class SimpleContactForm(ContactForm):
     class Meta:
         model = Contact
-        exclude = ['readed', 'name', 'phone', 'organization','subject']
+        exclude = ['readed', 'name', 'organization','subject']
